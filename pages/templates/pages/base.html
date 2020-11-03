@@ -6,7 +6,9 @@
     <title>{% block title %}{% endblock title %}</title>
 </head>
 <body>
-    <header>{% block header %}{% endblock header %}</header>
+    <header>
+        <a href="{% url 'main' %}">Главная страница</a>
+    </header>
     {% block main %}{% endblock main %}
 </body>
 </html>
