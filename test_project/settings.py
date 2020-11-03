@@ -122,7 +122,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    os.path.join('/home/"Рабочий стол"', "static"),
+    os.path.join('/home/"Рабочий стол"/test_project/', "static"),
     '/usr/lib/python3/dist-packages/django/contrib/admin/'
 )
-STATIC_ROOT = os.path.join('/home/"Рабочий стол"', 'staticfiles')
+STATIC_ROOT = os.path.join('/home/"Рабочий стол"/test_project/', 'staticfiles')
