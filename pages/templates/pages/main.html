@@ -4,3 +4,8 @@
 {% endblock title %}
 {% block header %}
 {% endblock header %}
+{% block main %}
+    {% for post in all_posts_list %}
+        <li>{{ post }}</li>
+    {% endfor %}
+{% endblock main %}
